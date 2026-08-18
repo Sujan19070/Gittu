@@ -1,1 +1,11 @@
-.exe
+# Ignore all compiled executable files
+*.exe
+
+# (Optional but recommended) Ignore other common C++ build files:
+*.o
+*.obj
+*.out
+*.app
+build/
+cmake-build-debug/
+.vs/
